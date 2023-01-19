@@ -4,8 +4,3 @@ export interface IPost{
   body: string,
   tags: string[]
 }
-
-export interface ITags{
-  name: string,
-  posts: IPost[]
-}
